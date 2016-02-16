@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "3BB1A9300CE95F4D540B411D88D3E3EFC879D818",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "55CCDCB7A8583E671D8CF9FA82800CF6D50BD920" : 0,
+    "3C253C5A6D42836DDB7169DBC44109917318EEAB" : 0,
+    "3BB1A9300CE95F4D540B411D88D3E3EFC879D818" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "EBB1C06A-4205-4B35-9379-085C1B3F221B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "55CCDCB7A8583E671D8CF9FA82800CF6D50BD920" : "",
+    "3C253C5A6D42836DDB7169DBC44109917318EEAB" : "ios-decal-hw2",
+    "3BB1A9300CE95F4D540B411D88D3E3EFC879D818" : "hw2\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "CustomKeyboard",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "CustomKeyboard\/CustomKeyboard.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/sophiecooper\/ios-decal-hw2.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3BB1A9300CE95F4D540B411D88D3E3EFC879D818"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:iosdecal\/ios-decal-hw2.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3C253C5A6D42836DDB7169DBC44109917318EEAB"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/sophiecooper\/ios-decal-hw1.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "55CCDCB7A8583E671D8CF9FA82800CF6D50BD920"
+    }
+  ]
+}

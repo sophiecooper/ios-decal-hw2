@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3A55544A1BA930D800AF502F /* Keyboard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A5554491BA930D800AF502F /* Keyboard.xib */; settings = {ASSET_TAGS = (); }; };
+		3A55544A1BA930D800AF502F /* Keyboard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A5554491BA930D800AF502F /* Keyboard.xib */; };
 		3AAA639A1BA9263900E3822E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAA63991BA9263900E3822E /* AppDelegate.swift */; };
 		3AAA639C1BA9263900E3822E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAA639B1BA9263900E3822E /* ViewController.swift */; };
 		3AAA639F1BA9263900E3822E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AAA639D1BA9263900E3822E /* Main.storyboard */; };
@@ -15,6 +15,19 @@
 		3AAA63A41BA9263900E3822E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AAA63A21BA9263900E3822E /* LaunchScreen.storyboard */; };
 		3AAA63B31BA9283500E3822E /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAA63B21BA9283500E3822E /* KeyboardViewController.swift */; };
 		3AAA63B71BA9283500E3822E /* CalKeyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3AAA63B01BA9283500E3822E /* CalKeyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		63EB5A5F1C6D84270076B3ED /* milk-carton.png in Resources */ = {isa = PBXBuildFile; fileRef = 63EB5A5E1C6D84270076B3ED /* milk-carton.png */; };
+		63EB5A631C6D85BB0076B3ED /* bread.png in Resources */ = {isa = PBXBuildFile; fileRef = 63EB5A601C6D85BB0076B3ED /* bread.png */; };
+		63EB5A641C6D85BB0076B3ED /* eggs.png in Resources */ = {isa = PBXBuildFile; fileRef = 63EB5A611C6D85BB0076B3ED /* eggs.png */; };
+		63EB5A651C6D85BB0076B3ED /* orange.png in Resources */ = {isa = PBXBuildFile; fileRef = 63EB5A621C6D85BB0076B3ED /* orange.png */; };
+		63EB5A671C6D87DA0076B3ED /* cheese.png in Resources */ = {isa = PBXBuildFile; fileRef = 63EB5A661C6D87DA0076B3ED /* cheese.png */; };
+		63EB5A691C6D898E0076B3ED /* cookie.png in Resources */ = {isa = PBXBuildFile; fileRef = 63EB5A681C6D898E0076B3ED /* cookie.png */; };
+		63EB5A6C1C6D8A200076B3ED /* apple.png in Resources */ = {isa = PBXBuildFile; fileRef = 63EB5A6A1C6D8A200076B3ED /* apple.png */; };
+		63EB5A6D1C6D8A200076B3ED /* orange juice.png in Resources */ = {isa = PBXBuildFile; fileRef = 63EB5A6B1C6D8A200076B3ED /* orange juice.png */; };
+		63EB5A731C6DA7F60076B3ED /* bananas.png in Resources */ = {isa = PBXBuildFile; fileRef = 63EB5A6E1C6DA7F60076B3ED /* bananas.png */; };
+		63EB5A741C6DA7F60076B3ED /* carrot.png in Resources */ = {isa = PBXBuildFile; fileRef = 63EB5A6F1C6DA7F60076B3ED /* carrot.png */; };
+		63EB5A751C6DA7F60076B3ED /* grapes.png in Resources */ = {isa = PBXBuildFile; fileRef = 63EB5A701C6DA7F60076B3ED /* grapes.png */; };
+		63EB5A761C6DA7F60076B3ED /* Lettuce_PNG_Picture.png in Resources */ = {isa = PBXBuildFile; fileRef = 63EB5A711C6DA7F60076B3ED /* Lettuce_PNG_Picture.png */; };
+		63EB5A771C6DA7F60076B3ED /* wine.png in Resources */ = {isa = PBXBuildFile; fileRef = 63EB5A721C6DA7F60076B3ED /* wine.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +66,19 @@
 		3AAA63B01BA9283500E3822E /* CalKeyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CalKeyboard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AAA63B21BA9283500E3822E /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
 		3AAA63B41BA9283500E3822E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63EB5A5E1C6D84270076B3ED /* milk-carton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "milk-carton.png"; path = "../../../../milk-carton.png"; sourceTree = "<group>"; };
+		63EB5A601C6D85BB0076B3ED /* bread.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bread.png; path = ../../../../bread.png; sourceTree = "<group>"; };
+		63EB5A611C6D85BB0076B3ED /* eggs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = eggs.png; path = ../../../../eggs.png; sourceTree = "<group>"; };
+		63EB5A621C6D85BB0076B3ED /* orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = orange.png; path = ../../../../orange.png; sourceTree = "<group>"; };
+		63EB5A661C6D87DA0076B3ED /* cheese.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cheese.png; path = ../../../../cheese.png; sourceTree = "<group>"; };
+		63EB5A681C6D898E0076B3ED /* cookie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cookie.png; path = ../../../../cookie.png; sourceTree = "<group>"; };
+		63EB5A6A1C6D8A200076B3ED /* apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = apple.png; path = ../../../../apple.png; sourceTree = "<group>"; };
+		63EB5A6B1C6D8A200076B3ED /* orange juice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "orange juice.png"; path = "../../../../orange juice.png"; sourceTree = "<group>"; };
+		63EB5A6E1C6DA7F60076B3ED /* bananas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bananas.png; path = ../../../../bananas.png; sourceTree = "<group>"; };
+		63EB5A6F1C6DA7F60076B3ED /* carrot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = carrot.png; path = ../../../../carrot.png; sourceTree = "<group>"; };
+		63EB5A701C6DA7F60076B3ED /* grapes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = grapes.png; path = ../../../../grapes.png; sourceTree = "<group>"; };
+		63EB5A711C6DA7F60076B3ED /* Lettuce_PNG_Picture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Lettuce_PNG_Picture.png; path = ../../../../Lettuce_PNG_Picture.png; sourceTree = "<group>"; };
+		63EB5A721C6DA7F60076B3ED /* wine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = wine.png; path = ../../../../wine.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +135,19 @@
 			children = (
 				3AAA63B21BA9283500E3822E /* KeyboardViewController.swift */,
 				3A5554491BA930D800AF502F /* Keyboard.xib */,
+				63EB5A6E1C6DA7F60076B3ED /* bananas.png */,
+				63EB5A6F1C6DA7F60076B3ED /* carrot.png */,
+				63EB5A701C6DA7F60076B3ED /* grapes.png */,
+				63EB5A711C6DA7F60076B3ED /* Lettuce_PNG_Picture.png */,
+				63EB5A721C6DA7F60076B3ED /* wine.png */,
+				63EB5A6A1C6D8A200076B3ED /* apple.png */,
+				63EB5A6B1C6D8A200076B3ED /* orange juice.png */,
+				63EB5A681C6D898E0076B3ED /* cookie.png */,
+				63EB5A661C6D87DA0076B3ED /* cheese.png */,
+				63EB5A601C6D85BB0076B3ED /* bread.png */,
+				63EB5A611C6D85BB0076B3ED /* eggs.png */,
+				63EB5A621C6D85BB0076B3ED /* orange.png */,
+				63EB5A5E1C6D84270076B3ED /* milk-carton.png */,
 				3AAA63B41BA9283500E3822E /* Info.plist */,
 			);
 			path = CalKeyboard;
@@ -205,6 +244,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A55544A1BA930D800AF502F /* Keyboard.xib in Resources */,
+				63EB5A641C6D85BB0076B3ED /* eggs.png in Resources */,
+				63EB5A5F1C6D84270076B3ED /* milk-carton.png in Resources */,
+				63EB5A691C6D898E0076B3ED /* cookie.png in Resources */,
+				63EB5A761C6DA7F60076B3ED /* Lettuce_PNG_Picture.png in Resources */,
+				63EB5A741C6DA7F60076B3ED /* carrot.png in Resources */,
+				63EB5A771C6DA7F60076B3ED /* wine.png in Resources */,
+				63EB5A731C6DA7F60076B3ED /* bananas.png in Resources */,
+				63EB5A6D1C6D8A200076B3ED /* orange juice.png in Resources */,
+				63EB5A751C6DA7F60076B3ED /* grapes.png in Resources */,
+				63EB5A651C6D85BB0076B3ED /* orange.png in Resources */,
+				63EB5A671C6D87DA0076B3ED /* cheese.png in Resources */,
+				63EB5A6C1C6D8A200076B3ED /* apple.png in Resources */,
+				63EB5A631C6D85BB0076B3ED /* bread.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

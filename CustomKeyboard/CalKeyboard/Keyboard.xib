@@ -1,12 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="KeyboardViewController" customModule="CalKeyboard" customModuleProvider="target">
             <connections>
+                <outlet property="apple" destination="fKY-YY-Gmh" id="2fu-p5-CUx"/>
+                <outlet property="banana" destination="sDb-dA-Ka0" id="Wi2-M1-uLn"/>
+                <outlet property="bread" destination="1aY-gg-Psi" id="j3a-tL-hV3"/>
+                <outlet property="carrot" destination="h9O-PR-yiA" id="0j9-sC-TOb"/>
+                <outlet property="cheese" destination="RIj-K5-yeS" id="coB-BC-CDp"/>
+                <outlet property="cookie" destination="Grf-Z9-1FS" id="KoJ-wo-KTg"/>
+                <outlet property="deleteButton" destination="u9l-9F-wgb" id="zAc-bT-LNB"/>
+                <outlet property="eggs" destination="BUF-Td-SrN" id="5ks-7h-6E9"/>
+                <outlet property="grapes" destination="HId-0F-gOA" id="jly-Fm-Yrt"/>
+                <outlet property="juice" destination="qJn-AK-05E" id="Obi-iP-zZF"/>
+                <outlet property="lettuce" destination="H0M-sQ-m8N" id="RhC-TE-DwL"/>
+                <outlet property="milk" destination="WfT-sP-eDF" id="ocp-sS-wOB"/>
                 <outlet property="nextKeyboardButton" destination="gRt-12-JcF" id="CWQ-gG-G2m"/>
+                <outlet property="orange" destination="4eH-Te-bXk" id="Nd7-or-J7Z"/>
+                <outlet property="returnButton" destination="U1v-Ig-aIy" id="jo9-G1-WHl"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
@@ -15,21 +29,228 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gRt-12-JcF">
-                    <rect key="frame" x="8" y="162" width="30" height="30"/>
+                    <rect key="frame" x="8" y="162" width="123" height="30"/>
                     <constraints>
-                        <constraint firstAttribute="width" constant="30" id="eu0-xj-Jov"/>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="Iuu-Vv-UsS"/>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="123" id="dvD-GK-qpt"/>
+                        <constraint firstAttribute="width" constant="123" id="eu0-xj-Jov"/>
                         <constraint firstAttribute="height" constant="30" id="rFT-bm-aBM"/>
                     </constraints>
-                    <state key="normal" title="N"/>
+                    <state key="normal" title="Next Keyboard">
+                        <color key="titleColor" red="1" green="0.98874664690000003" blue="0.98440671130000001" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WfT-sP-eDF">
+                    <rect key="frame" x="8" y="27" width="53" height="49"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="53" id="Qcg-dj-Rjn"/>
+                        <constraint firstAttribute="height" constant="49" id="uyy-FJ-x6y"/>
+                    </constraints>
+                    <state key="normal" title="Milk" image="milk-carton.png"/>
+                    <connections>
+                        <action selector="milkPressed" destination="-1" eventType="touchUpInside" id="Zg2-2J-O4p"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BUF-Td-SrN">
+                    <rect key="frame" x="75" y="32" width="38" height="40"/>
+                    <color key="backgroundColor" red="0.014796411544733141" green="0.07930224168874965" blue="0.26091746794871795" alpha="0.0" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="38" id="7nc-49-XZr"/>
+                        <constraint firstAttribute="height" constant="40" id="X7R-6E-5Fd"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                    <state key="normal" title="Eggs" image="eggs.png"/>
+                    <connections>
+                        <action selector="eggsPressed" destination="-1" eventType="touchUpInside" id="ro7-HH-zWy"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1aY-gg-Psi">
+                    <rect key="frame" x="136" y="40" width="39" height="24"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="39" id="J65-ZO-Mmv"/>
+                        <constraint firstAttribute="height" constant="24" id="ipo-xg-h4M"/>
+                    </constraints>
+                    <state key="normal" title="Button" image="bread.png"/>
+                    <connections>
+                        <action selector="breadPressed" destination="-1" eventType="touchUpInside" id="hEO-i3-Ien"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U1v-Ig-aIy">
+                    <rect key="frame" x="177" y="162" width="64" height="30"/>
+                    <state key="normal" title="Return">
+                        <color key="titleColor" red="1" green="0.98874664690000003" blue="0.98440671130000001" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="returnPressed" destination="-1" eventType="touchUpInside" id="KFM-dg-bux"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4eH-Te-bXk">
+                    <rect key="frame" x="202" y="37" width="30" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="91M-6P-wZq"/>
+                        <constraint firstAttribute="width" constant="30" id="N32-Ed-QGP"/>
+                    </constraints>
+                    <state key="normal" title="Button" image="orange.png"/>
+                    <connections>
+                        <action selector="orangePressed" destination="-1" eventType="touchUpInside" id="hJu-1g-7yx"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RIj-K5-yeS">
+                    <rect key="frame" x="260" y="40" width="30" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="diZ-KH-OwJ"/>
+                        <constraint firstAttribute="width" constant="30" id="tVV-tt-iia"/>
+                    </constraints>
+                    <state key="normal" title="Button" image="cheese.png"/>
+                    <connections>
+                        <action selector="cheesePressed" destination="-1" eventType="touchUpInside" id="SNc-cf-Bm0"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Grf-Z9-1FS">
+                    <rect key="frame" x="18" y="95" width="36" height="38"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="36" id="4ps-Wx-DfE"/>
+                        <constraint firstAttribute="height" constant="38" id="Z4Y-na-XKK"/>
+                    </constraints>
+                    <state key="normal" title="Button" image="cookie.png"/>
+                    <connections>
+                        <action selector="cookiePressed" destination="-1" eventType="touchUpInside" id="zCg-9I-531"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fKY-YY-Gmh">
+                    <rect key="frame" x="75" y="97" width="38" height="34"/>
+                    <accessibility key="accessibilityConfiguration">
+                        <accessibilityTraits key="traits" button="YES" keyboardKey="YES"/>
+                    </accessibility>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="34" id="0qW-zi-lIv"/>
+                        <constraint firstAttribute="width" constant="38" id="Qz7-fn-OZO"/>
+                    </constraints>
+                    <state key="normal" title="Button" image="apple.png"/>
+                    <connections>
+                        <action selector="applePressed" destination="-1" eventType="touchUpInside" id="iPH-pq-SwL"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sDb-dA-Ka0">
+                    <rect key="frame" x="131" y="93" width="44" height="43"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="44" id="1oY-cr-6J1"/>
+                        <constraint firstAttribute="height" constant="43" id="9zO-30-2uO"/>
+                    </constraints>
+                    <state key="normal" title="Button" image="bananas.png"/>
+                    <connections>
+                        <action selector="bananaPressed" destination="-1" eventType="touchUpInside" id="nxm-vS-mNw"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H0M-sQ-m8N">
+                    <rect key="frame" x="202" y="95" width="34" height="37"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="37" id="edw-uv-hhO"/>
+                        <constraint firstAttribute="width" constant="34" id="jWu-v9-nzr"/>
+                    </constraints>
+                    <state key="normal" title="Button" image="Lettuce_PNG_Picture.png"/>
+                    <connections>
+                        <action selector="lettucePressed" destination="-1" eventType="touchUpInside" id="IhU-fa-Get"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h9O-PR-yiA">
+                    <rect key="frame" x="311" y="32" width="42" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="42" id="6wD-KV-k4E"/>
+                        <constraint firstAttribute="height" constant="40" id="UjI-dX-bkY"/>
+                    </constraints>
+                    <state key="normal" title="Button" image="carrot.png"/>
+                    <connections>
+                        <action selector="carrotPressed" destination="-1" eventType="touchUpInside" id="gRj-tZ-aqW"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HId-0F-gOA">
+                    <rect key="frame" x="256" y="93" width="34" height="39"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="39" id="CKO-EO-tp5"/>
+                        <constraint firstAttribute="width" constant="34" id="QPG-jL-gZH"/>
+                    </constraints>
+                    <state key="normal" title="Button" image="grapes.png"/>
+                    <connections>
+                        <action selector="grapesPressed" destination="-1" eventType="touchUpInside" id="QOD-Q1-jZy"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qJn-AK-05E">
+                    <rect key="frame" x="311" y="90" width="42" height="48"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="48" id="Nbx-A0-1Tw"/>
+                        <constraint firstAttribute="width" constant="42" id="qsh-HH-z0o"/>
+                    </constraints>
+                    <state key="normal" title="Button" image="orange juice.png"/>
+                    <connections>
+                        <action selector="juicePressed" destination="-1" eventType="touchUpInside" id="VPL-ev-Zup"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u9l-9F-wgb">
+                    <rect key="frame" x="308" y="162" width="45" height="30"/>
+                    <state key="normal" title="Delete">
+                        <color key="titleColor" red="1" green="0.98874664690000003" blue="0.98440671130000001" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="deletePressed" destination="-1" eventType="touchUpInside" id="uYG-S2-OUI"/>
+                    </connections>
                 </button>
             </subviews>
+            <color key="backgroundColor" red="0.014796411544733141" green="0.07930224168874965" blue="0.26091746794871795" alpha="0.78620689655172415" colorSpace="calibratedRGB"/>
             <constraints>
+                <constraint firstAttribute="trailing" secondItem="WfT-sP-eDF" secondAttribute="trailing" constant="314" id="2Pq-vv-vI4"/>
+                <constraint firstItem="h9O-PR-yiA" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="32" id="5Ut-dv-Lga"/>
+                <constraint firstItem="fKY-YY-Gmh" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="75" id="64l-Xz-qIE"/>
+                <constraint firstAttribute="bottom" secondItem="Grf-Z9-1FS" secondAttribute="bottom" constant="67" id="9bX-I9-zhn"/>
+                <constraint firstAttribute="bottom" secondItem="sDb-dA-Ka0" secondAttribute="bottom" constant="64" id="BZD-GJ-vGH"/>
+                <constraint firstItem="4eH-Te-bXk" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="37" id="G2R-Qv-MmT"/>
+                <constraint firstItem="u9l-9F-wgb" firstAttribute="leading" secondItem="U1v-Ig-aIy" secondAttribute="trailing" constant="67" id="IJc-E2-iNm"/>
+                <constraint firstItem="RIj-K5-yeS" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="40" id="IbW-UF-Xta"/>
+                <constraint firstAttribute="bottom" secondItem="u9l-9F-wgb" secondAttribute="bottom" constant="8" id="JqI-oQ-UvG"/>
                 <constraint firstItem="gRt-12-JcF" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="LUD-YX-JVD"/>
+                <constraint firstItem="WfT-sP-eDF" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="27" id="LeO-Ys-2Fq"/>
+                <constraint firstItem="U1v-Ig-aIy" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="162" id="M0A-K5-wcj"/>
+                <constraint firstAttribute="bottom" secondItem="fKY-YY-Gmh" secondAttribute="bottom" constant="69" id="Pol-PE-J48"/>
+                <constraint firstAttribute="trailing" secondItem="U1v-Ig-aIy" secondAttribute="trailing" constant="134" id="T23-r5-oPA"/>
+                <constraint firstItem="U1v-Ig-aIy" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="177" id="VDA-aq-HC9"/>
+                <constraint firstAttribute="trailing" secondItem="BUF-Td-SrN" secondAttribute="trailing" constant="262" id="W8p-Sd-rd5"/>
+                <constraint firstItem="H0M-sQ-m8N" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" constant="14" id="WeO-WJ-acc"/>
+                <constraint firstAttribute="trailing" secondItem="u9l-9F-wgb" secondAttribute="trailing" constant="22" id="WqF-5k-wcc"/>
+                <constraint firstItem="U1v-Ig-aIy" firstAttribute="leading" secondItem="gRt-12-JcF" secondAttribute="trailing" constant="46" id="YHt-PI-mRJ"/>
+                <constraint firstAttribute="trailing" secondItem="1aY-gg-Psi" secondAttribute="trailing" constant="197" id="Ykx-fP-HZ9"/>
+                <constraint firstAttribute="trailing" secondItem="4eH-Te-bXk" secondAttribute="trailing" constant="143" id="fRa-Du-R2o"/>
+                <constraint firstItem="sDb-dA-Ka0" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="131" id="fdH-0K-t7r"/>
+                <constraint firstAttribute="trailing" secondItem="qJn-AK-05E" secondAttribute="trailing" constant="22" id="fkI-Qb-mWv"/>
+                <constraint firstItem="BUF-Td-SrN" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="32" id="iA8-gY-jf7"/>
+                <constraint firstAttribute="bottom" secondItem="U1v-Ig-aIy" secondAttribute="bottom" constant="8" id="k3h-tr-Uee"/>
+                <constraint firstItem="1aY-gg-Psi" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="40" id="lK1-eJ-T7d"/>
+                <constraint firstAttribute="trailing" secondItem="RIj-K5-yeS" secondAttribute="trailing" constant="85" id="moc-8F-9uP"/>
+                <constraint firstItem="H0M-sQ-m8N" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="202" id="oQs-0x-19B"/>
+                <constraint firstAttribute="bottom" secondItem="HId-0F-gOA" secondAttribute="bottom" constant="68" id="s2B-Yz-mKy"/>
                 <constraint firstAttribute="bottom" secondItem="gRt-12-JcF" secondAttribute="bottom" constant="8" id="tEE-h3-FZa"/>
+                <constraint firstItem="HId-0F-gOA" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="256" id="trz-3Q-hPz"/>
+                <constraint firstAttribute="bottom" secondItem="qJn-AK-05E" secondAttribute="bottom" constant="62" id="vjn-s9-tbC"/>
+                <constraint firstItem="Grf-Z9-1FS" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="18" id="vpY-fI-9YJ"/>
+                <constraint firstAttribute="trailing" secondItem="h9O-PR-yiA" secondAttribute="trailing" constant="22" id="wDH-ej-6oi"/>
+                <constraint firstAttribute="bottom" secondItem="H0M-sQ-m8N" secondAttribute="bottom" constant="68" id="zn7-jH-KEZ"/>
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-            <point key="canvasLocation" x="605.5" y="542"/>
+            <point key="canvasLocation" x="317.5" y="216"/>
         </view>
     </objects>
+    <resources>
+        <image name="Lettuce_PNG_Picture.png" width="1150" height="1087"/>
+        <image name="apple.png" width="512" height="512"/>
+        <image name="bananas.png" width="512" height="512"/>
+        <image name="bread.png" width="3416" height="1310"/>
+        <image name="carrot.png" width="128" height="128"/>
+        <image name="cheese.png" width="344" height="304"/>
+        <image name="cookie.png" width="800" height="557"/>
+        <image name="eggs.png" width="640" height="473"/>
+        <image name="grapes.png" width="3596" height="4520"/>
+        <image name="milk-carton.png" width="400" height="400"/>
+        <image name="orange juice.png" width="160" height="160"/>
+        <image name="orange.png" width="280" height="301"/>
+    </resources>
 </document>
